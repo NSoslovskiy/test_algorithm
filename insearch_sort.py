@@ -11,4 +11,5 @@ for i in range(1, len(a)):
         j = j - 1
     a[j+1] = key
 
-sys.stdout.write(str(a) + '\n')
+sys.stdout.write(str(a[:100]) + '\n')
+sys.stdout.write("Total elements sorted: " + str(len(a)) + '\n')

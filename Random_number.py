@@ -6,4 +6,4 @@ def generate(n):
 
     print(*data)
 
-generate(500)
+generate(2000)

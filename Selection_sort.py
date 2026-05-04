@@ -8,4 +8,5 @@ for i in range(0, len(a)-1):
     idx = a.index(m, i)
     a[i], a[idx] = a[idx], a[i]
 
-sys.stdout.write(str(a) + '\n')
+sys.stdout.write(str(a[:100]) + '\n')
+sys.stdout.write("Total elements sorted: " + str(len(a)) + '\n')

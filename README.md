@@ -2,13 +2,13 @@
 | :--- |:---------------------------------|:---------------------------------|:------------------------------------|:--------------------------------|
 | **n = 100** | 0.02 sec/9216 kilobyte           | 0.02 sec/8604 kilobyte           | 0.02 sec/8978 kilobyte              | 0.02 sec/9362 kilobyte          |
 | |                                  |                                  |                                     |                                 |
-| **n = 300** | 0.04 sec/9216 kilobyte           | 0.04 sec/9088 kilobyte           | 0.04 sec/8960 kilobyte                                     | 0.03 sec/9472  kilobyte         |
+| **n = 300** | 0.04 sec/9216 kilobyte           | 0.04 sec/9088 kilobyte           | 0.04 sec/8960 kilobyte              | 0.03 sec/9472 kilobyte          |
 | |                                  |                                  |                                     |                                 |
-| **n = 500** |                                  |                                  |                                     | 0.04 sec/10240  kilobyte         |
+| **n = 500** | 0.03 sec/9344 kilobyte           | 0.12 sec/8996 kilobyte           | 0.08 sec/9088 kilobyte              | 0.04 sec/10240 kilobyte         |
 | |                                  |                                  |                                     |                                 |
-| **n = 1000** |                                  |                                  |                                     |                                 |
+| **n = 1000** | 0.05 sec/9156 kilobyte           | 0.50 sec/9193 kilobyte           | 0.28 sec/9344 kilobyte              | 0.08 sec/13440 kilobyte         |
 | |                                  |                                  |                                     |                                 |
-| **n = 1500** |                                  |                                  |                                     |                                 |
+| **n = 1500** | 0.10 sec/9246 kilobyte           | 1.17 sec/9446 kilobyte           | 0.58 sec/8960 kilobyte              | 0.14 sec/18816 kilobyte         |
 | |                                  |                                  |                                     |                                 |
-| **n = 2000** |                                  |                                  |                                     |                                 |
+| **n = 2000** | 0.16 sec/9472 kilobyte           | 2.04 sec/9472 kilobyte           | 1.05 sec/9790 kilobyte              | 0.28 sec/26240 kilobyte         |
 | |                                  |                                  |                                     |                                 |

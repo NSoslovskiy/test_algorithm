@@ -1,6 +1,6 @@
 import sys
 
-sys.setrecursionlimit(2000)
+sys.setrecursionlimit(3000)
 
 def quick_sort_desc(a):
     if len(a) <= 1:
@@ -14,4 +14,6 @@ data = sys.stdin.read()
 a = list(map(int, data.split()))
 
 result = quick_sort_desc(a)
-sys.stdout.write(str(result) + '\n')
+
+sys.stdout.write(str(result[:100]) + '\n')
+sys.stdout.write("Total elements sorted: " + str(len(result)) + '\n')

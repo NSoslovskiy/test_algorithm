@@ -8,4 +8,5 @@ for i in range(0, len(a) - 1):
         if a[j] < a[j + 1]:
             a[j], a[j + 1] = a[j + 1], a[j]
 
-sys.stdout.write(str(a) + '\n')
+sys.stdout.write(str(a[:100]) + '\n')
+sys.stdout.write("Total elements sorted: " + str(len(a)) + '\n')
