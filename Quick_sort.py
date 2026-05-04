@@ -1,3 +1,7 @@
+import sys
+
+sys.setrecursionlimit(2000)
+
 def quick_sort_desc(a):
     if len(a) <= 1:
         return a
@@ -6,5 +10,8 @@ def quick_sort_desc(a):
     right = [x for x in a[1:] if x < pivot]
     return quick_sort_desc(left) + [pivot] + quick_sort_desc(right)
 
-a = [76, 73, 69, 63, 67, 24, 42]
-print(quick_sort_desc(a))
+data = sys.stdin.read()
+a = list(map(int, data.split()))
+
+result = quick_sort_desc(a)
+sys.stdout.write(str(result) + '\n')
